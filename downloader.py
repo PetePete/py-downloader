@@ -2,7 +2,7 @@ import os
 import urllib.request
 
 DOWNLOADS_DIR = '/<Download-Folder>/'
- 
+
 # For every line in the file
 for url in open('/<List-Folder>/list.txt'):
     # Split on the rightmost / and take everything on the right side of that
